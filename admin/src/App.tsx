@@ -1,7 +1,9 @@
+import Blog from './pages/blog/components'
+
 function App() {
   return (
     <div className='App'>
-      <h1>Admin h1</h1>
+      <Blog />
     </div>
   )
 }

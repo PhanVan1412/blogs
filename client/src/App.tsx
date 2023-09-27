@@ -1,7 +1,9 @@
+import Blog from 'blog'
+
 function App() {
   return (
-    <div className='App'>
-      <h1 className='brand-heading'>Blogs JS Share to be Shared</h1>
+    <div className='App p-5'>
+      <Blog />
     </div>
   )
 }
