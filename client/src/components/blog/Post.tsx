@@ -2,7 +2,7 @@ import PostList from './PostList/BlogList'
 import PostItem from './PostItem/BlogItem'
 import { Post } from '../../types/post'
 import { useDispatch } from 'react-redux'
-import { deletePost, startUpdatePost } from 'pages/blogs/blog.reducer'
+import { deletePost, startUpdatePost } from 'pages/blogs/blog.slice'
 import { useNavigate } from 'react-router-dom'
 
 interface PostListType {

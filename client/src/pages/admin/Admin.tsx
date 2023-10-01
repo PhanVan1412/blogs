@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Post } from 'types/post'
 import { useDispatch, useSelector } from 'react-redux'
-import { addPost, updatedPost, cancelEditPost } from 'pages/blogs/blog.reducer'
+import { addPost, updatedPost, cancelEditPost } from 'pages/blogs/blog.slice'
 import { useNavigate } from 'react-router-dom'
 import { RootState } from 'store'
 
